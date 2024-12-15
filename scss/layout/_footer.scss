@@ -1,0 +1,48 @@
+footer {
+  background-color: #f7ffec;
+  padding: 100px 0;
+  position: relative;
+  .logo {
+    width: 160px;
+  }
+  .container {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+  }
+  .column {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  a {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: #000a01;
+  }
+  .active {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 160%;
+    color: #000a01;
+  }
+  .social {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  .circle {
+    width: 37px;
+    height: 37px;
+    display: grid;
+    place-items: center;
+    background: #000;
+    border-radius: 50%;
+  }
+  .dec{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+}
