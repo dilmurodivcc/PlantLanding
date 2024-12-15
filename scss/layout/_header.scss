@@ -1,0 +1,28 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 44px 0;
+  nav {
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    .links {
+      display: flex;
+      align-items: center;
+      gap: 45px;
+    }
+    a{
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 130%;
+        color: #101c02;
+        opacity: 0.5;
+    
+    }
+    .active{
+        color: #418a1c !important;
+        opacity: 1 !important;
+    }
+  }
+}
