@@ -69,7 +69,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 44px 0;
+  padding: 44px 10px;
 }
 header nav {
   display: flex;
