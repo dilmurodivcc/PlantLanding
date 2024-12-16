@@ -73,21 +73,22 @@
   .result {
     justify-content: space-between !important;
     width: 100% !important;
-    .left, 
+    .left,
     .right {
-        display: flex;
-        flex-direction: column;
-        justify-content: center !important;
-        align-items: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center !important;
+      align-items: center;
     }
   }
   h2 {
     font-size: 40px !important;
   }
- 
-  .card{
+
+  .card {
     height: auto !important;
     flex-direction: column;
+    width: 100%;
   }
   section .left,
   .right {
@@ -98,12 +99,39 @@
   .img2 {
     width: 100% !important;
     img {
-        padding: 0 !important;
-        margin: 0 !important;
-      width: 90% ;
+      padding: 0 !important;
+      margin: 0 !important;
+      width: 90%;
     }
   }
-  .play{
+
+  .play {
     width: 30% !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  h1 {
+    text-align: center !important;
+    font-size: 30px !important;
+    margin-top: 100px !important;
+    span {
+      font-size: 40px !important;
+    }
+  }
+  p {
+    font-size: 14px !important;
+  }
+  footer {
+    padding: 60px 0 !important;
+    .container {
+      gap: 30px !important;
+      flex-direction: column;
+      align-items: center;
+    }
+    .column {
+      flex-direction: column !important;
+      align-items: center !important;
+    }
   }
 }

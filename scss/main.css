@@ -10,6 +10,7 @@ html {
 
 body {
   font-family: "Raleway", sans-serif;
+  overflow-x: hidden;
 }
 
 li {
@@ -27,6 +28,7 @@ button {
 .container {
   max-width: 1100px;
   margin: 0 auto;
+  overflow-x: hidden;
 }
 
 ::-webkit-scrollbar {
@@ -545,6 +547,7 @@ footer .dec {
   .card {
     height: auto !important;
     flex-direction: column;
+    width: 100%;
   }
   section .left,
   .right {
@@ -562,5 +565,30 @@ footer .dec {
   }
   .play {
     width: 30% !important;
+  }
+}
+@media screen and (max-width: 500px) {
+  h1 {
+    text-align: center !important;
+    font-size: 30px !important;
+    margin-top: 100px !important;
+  }
+  h1 span {
+    font-size: 40px !important;
+  }
+  p {
+    font-size: 14px !important;
+  }
+  footer {
+    padding: 60px 0 !important;
+  }
+  footer .container {
+    gap: 30px !important;
+    flex-direction: column;
+    align-items: center;
+  }
+  footer .column {
+    flex-direction: column !important;
+    align-items: center !important;
   }
 }/*# sourceMappingURL=main.css.map */
