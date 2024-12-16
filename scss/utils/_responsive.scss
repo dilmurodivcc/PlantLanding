@@ -1,41 +1,109 @@
-@media  only screen and (max-width: 1000px) {
-    .container {
-        max-width: 90vw;
-    }
-    section{
-        flex-direction: column;
-        justify-content: center !important;
-        align-items: center !important;
-    }
-    
+@media only screen and (max-width: 1000px) {
+  .container {
+    max-width: 90vw;
+  }
+  section {
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+  }
 }
 @media (max-width: 900px) {
-    .bg{
-        img{
-            display: none;
-        }
+  .bg {
+    img {
+      display: none;
     }
-    footer{
-        padding: 100px auto !important;
-       .container{
-        justify-content: center;
-        flex-wrap: wrap;
-        gap: 80px;
-       }
-       .dec{
-        display : none;
-       }
+  }
+  footer {
+    padding: 100px auto !important;
+    .container {
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 80px;
     }
+    .dec {
+      display: none;
+    }
+  }
+  h1 {
+    text-align: center !important;
+    font-size: 50px !important;
+    span {
+      font-size: 65px !important;
+    }
+  }
 }
 @media screen and (max-width: 750px) {
-    .bg{
-        width: 100%;
+  header {
+    padding: 30px 20px !important;
+    nav {
+      .links {
+        display: none;
+      }
     }
-    footer{
-        .container{
-            justify-content: center ;
-            gap: 50px;
-        }
+  }
+  .bg {
+    width: 100%;
+  }
+  footer {
+    .container {
+      justify-content: center;
+      gap: 50px;
     }
+  }
+  h1 {
+    text-align: center !important;
+    font-size: 40px !important;
+    margin-top: 70px !important;
+    span {
+      font-size: 50px !important;
+    }
+  }
+  p {
+    font-size: 16px !important;
+  }
+  .hero {
+    margin-bottom: 300px !important;
+    aside {
+      width: 100% !important;
+      justify-content: center !important;
+      align-items: center !important;
+    }
+  }
+  .result {
+    justify-content: space-between !important;
+    width: 100% !important;
+    .left, 
+    .right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center !important;
+        align-items: center;
+    }
+  }
+  h2 {
+    font-size: 40px !important;
+  }
+ 
+  .card{
+    height: auto !important;
+    flex-direction: column;
+  }
+  section .left,
+  .right {
+    width: 100% !important;
+  }
 
+  .img,
+  .img2 {
+    width: 100% !important;
+    img {
+        padding: 0 !important;
+        margin: 0 !important;
+      width: 90% ;
+    }
+  }
+  .play{
+    width: 30% !important;
+  }
 }
