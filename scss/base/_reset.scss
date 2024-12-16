@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    font-family: "Raleway", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 li {
@@ -26,4 +26,14 @@ button {
 .container {
   max-width: 1100px;
   margin: 0 auto;
+}
+
+::-webkit-scrollbar {
+  background-color: #fff;
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+
+  background-color: #418a1c;
 }

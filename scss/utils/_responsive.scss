@@ -1,0 +1,41 @@
+@media  only screen and (max-width: 1000px) {
+    .container {
+        max-width: 90vw;
+    }
+    section{
+        flex-direction: column;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    
+}
+@media (max-width: 900px) {
+    .bg{
+        img{
+            display: none;
+        }
+    }
+    footer{
+        padding: 100px auto !important;
+       .container{
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 80px;
+       }
+       .dec{
+        display : none;
+       }
+    }
+}
+@media screen and (max-width: 750px) {
+    .bg{
+        width: 100%;
+    }
+    footer{
+        .container{
+            justify-content: center ;
+            gap: 50px;
+        }
+    }
+
+}
